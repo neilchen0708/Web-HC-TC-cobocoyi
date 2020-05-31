@@ -74,4 +74,29 @@ nav #box #social {
 nav #box #social a:nth-child(2) {
   text-align: right;
 }
+
+#contant {
+  width: 1920px;
+  background-image: url(./img/paper-color.png);
+  border: 0.1px solid rgba(0, 0, 0, 0);
+}
+
+#contant h1 {
+  text-align: center;
+  margin-top: 46px;
+  margin-bottom: 60px;
+  font-weight: 300;
+  letter-spacing: 9.6px;
+  font-size: 32px;
+}
+
+#news {
+  width: 1200px;
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
 /*# sourceMappingURL=style.css.map */
